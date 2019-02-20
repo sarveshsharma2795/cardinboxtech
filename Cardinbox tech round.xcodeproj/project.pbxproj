@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7927E26E221D503F00707880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927E26D221D503F00707880 /* AppDelegate.swift */; };
+		7927E270221D503F00707880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927E26F221D503F00707880 /* ViewController.swift */; };
+		7927E273221D504000707880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7927E271221D503F00707880 /* Main.storyboard */; };
+		7927E275221D504100707880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7927E274221D504100707880 /* Assets.xcassets */; };
+		7927E278221D504100707880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7927E276221D504100707880 /* LaunchScreen.storyboard */; };
+		7927E283221D504100707880 /* Cardinbox_tech_roundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927E282221D504100707880 /* Cardinbox_tech_roundTests.swift */; };
+		7927E28E221D504100707880 /* Cardinbox_tech_roundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927E28D221D504100707880 /* Cardinbox_tech_roundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7927E27F221D504100707880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7927E262221D503F00707880 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7927E269221D503F00707880;
+			remoteInfo = "Cardinbox tech round";
+		};
+		7927E28A221D504100707880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7927E262221D503F00707880 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7927E269221D503F00707880;
+			remoteInfo = "Cardinbox tech round";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7927E26A221D503F00707880 /* Cardinbox tech round.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardinbox tech round.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927E26D221D503F00707880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7927E26F221D503F00707880 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7927E272221D503F00707880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7927E274221D504100707880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7927E277221D504100707880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7927E279221D504100707880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7927E27E221D504100707880 /* Cardinbox tech roundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardinbox tech roundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927E282221D504100707880 /* Cardinbox_tech_roundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardinbox_tech_roundTests.swift; sourceTree = "<group>"; };
+		7927E284221D504100707880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7927E289221D504100707880 /* Cardinbox tech roundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardinbox tech roundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927E28D221D504100707880 /* Cardinbox_tech_roundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardinbox_tech_roundUITests.swift; sourceTree = "<group>"; };
+		7927E28F221D504100707880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7927E267221D503F00707880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927E27B221D504100707880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927E286221D504100707880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7927E261221D503F00707880 = {
+			isa = PBXGroup;
+			children = (
+				7927E26C221D503F00707880 /* Cardinbox tech round */,
+				7927E281221D504100707880 /* Cardinbox tech roundTests */,
+				7927E28C221D504100707880 /* Cardinbox tech roundUITests */,
+				7927E26B221D503F00707880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7927E26B221D503F00707880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7927E26A221D503F00707880 /* Cardinbox tech round.app */,
+				7927E27E221D504100707880 /* Cardinbox tech roundTests.xctest */,
+				7927E289221D504100707880 /* Cardinbox tech roundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7927E26C221D503F00707880 /* Cardinbox tech round */ = {
+			isa = PBXGroup;
+			children = (
+				7927E26D221D503F00707880 /* AppDelegate.swift */,
+				7927E26F221D503F00707880 /* ViewController.swift */,
+				7927E271221D503F00707880 /* Main.storyboard */,
+				7927E274221D504100707880 /* Assets.xcassets */,
+				7927E276221D504100707880 /* LaunchScreen.storyboard */,
+				7927E279221D504100707880 /* Info.plist */,
+			);
+			path = "Cardinbox tech round";
+			sourceTree = "<group>";
+		};
+		7927E281221D504100707880 /* Cardinbox tech roundTests */ = {
+			isa = PBXGroup;
+			children = (
+				7927E282221D504100707880 /* Cardinbox_tech_roundTests.swift */,
+				7927E284221D504100707880 /* Info.plist */,
+			);
+			path = "Cardinbox tech roundTests";
+			sourceTree = "<group>";
+		};
+		7927E28C221D504100707880 /* Cardinbox tech roundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7927E28D221D504100707880 /* Cardinbox_tech_roundUITests.swift */,
+				7927E28F221D504100707880 /* Info.plist */,
+			);
+			path = "Cardinbox tech roundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7927E269221D503F00707880 /* Cardinbox tech round */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7927E292221D504100707880 /* Build configuration list for PBXNativeTarget "Cardinbox tech round" */;
+			buildPhases = (
+				7927E266221D503F00707880 /* Sources */,
+				7927E267221D503F00707880 /* Frameworks */,
+				7927E268221D503F00707880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cardinbox tech round";
+			productName = "Cardinbox tech round";
+			productReference = 7927E26A221D503F00707880 /* Cardinbox tech round.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7927E27D221D504100707880 /* Cardinbox tech roundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7927E295221D504100707880 /* Build configuration list for PBXNativeTarget "Cardinbox tech roundTests" */;
+			buildPhases = (
+				7927E27A221D504100707880 /* Sources */,
+				7927E27B221D504100707880 /* Frameworks */,
+				7927E27C221D504100707880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7927E280221D504100707880 /* PBXTargetDependency */,
+			);
+			name = "Cardinbox tech roundTests";
+			productName = "Cardinbox tech roundTests";
+			productReference = 7927E27E221D504100707880 /* Cardinbox tech roundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7927E288221D504100707880 /* Cardinbox tech roundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7927E298221D504100707880 /* Build configuration list for PBXNativeTarget "Cardinbox tech roundUITests" */;
+			buildPhases = (
+				7927E285221D504100707880 /* Sources */,
+				7927E286221D504100707880 /* Frameworks */,
+				7927E287221D504100707880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7927E28B221D504100707880 /* PBXTargetDependency */,
+			);
+			name = "Cardinbox tech roundUITests";
+			productName = "Cardinbox tech roundUITests";
+			productReference = 7927E289221D504100707880 /* Cardinbox tech roundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7927E262221D503F00707880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sarvesh;
+				TargetAttributes = {
+					7927E269221D503F00707880 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7927E27D221D504100707880 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7927E269221D503F00707880;
+					};
+					7927E288221D504100707880 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7927E269221D503F00707880;
+					};
+				};
+			};
+			buildConfigurationList = 7927E265221D503F00707880 /* Build configuration list for PBXProject "Cardinbox tech round" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7927E261221D503F00707880;
+			productRefGroup = 7927E26B221D503F00707880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7927E269221D503F00707880 /* Cardinbox tech round */,
+				7927E27D221D504100707880 /* Cardinbox tech roundTests */,
+				7927E288221D504100707880 /* Cardinbox tech roundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7927E268221D503F00707880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927E278221D504100707880 /* LaunchScreen.storyboard in Resources */,
+				7927E275221D504100707880 /* Assets.xcassets in Resources */,
+				7927E273221D504000707880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927E27C221D504100707880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927E287221D504100707880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7927E266221D503F00707880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927E270221D503F00707880 /* ViewController.swift in Sources */,
+				7927E26E221D503F00707880 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927E27A221D504100707880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927E283221D504100707880 /* Cardinbox_tech_roundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927E285221D504100707880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927E28E221D504100707880 /* Cardinbox_tech_roundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7927E280221D504100707880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7927E269221D503F00707880 /* Cardinbox tech round */;
+			targetProxy = 7927E27F221D504100707880 /* PBXContainerItemProxy */;
+		};
+		7927E28B221D504100707880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7927E269221D503F00707880 /* Cardinbox tech round */;
+			targetProxy = 7927E28A221D504100707880 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7927E271221D503F00707880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7927E272221D503F00707880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7927E276221D504100707880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7927E277221D504100707880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7927E290221D504100707880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7927E291221D504100707880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7927E293221D504100707880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CSR524RFQ;
+				INFOPLIST_FILE = "Cardinbox tech round/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LazyLunatics.Cardinbox-tech-round";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7927E294221D504100707880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CSR524RFQ;
+				INFOPLIST_FILE = "Cardinbox tech round/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LazyLunatics.Cardinbox-tech-round";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7927E296221D504100707880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CSR524RFQ;
+				INFOPLIST_FILE = "Cardinbox tech roundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LazyLunatics.Cardinbox-tech-roundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardinbox tech round.app/Cardinbox tech round";
+			};
+			name = Debug;
+		};
+		7927E297221D504100707880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CSR524RFQ;
+				INFOPLIST_FILE = "Cardinbox tech roundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LazyLunatics.Cardinbox-tech-roundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardinbox tech round.app/Cardinbox tech round";
+			};
+			name = Release;
+		};
+		7927E299221D504100707880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CSR524RFQ;
+				INFOPLIST_FILE = "Cardinbox tech roundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LazyLunatics.Cardinbox-tech-roundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardinbox tech round";
+			};
+			name = Debug;
+		};
+		7927E29A221D504100707880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CSR524RFQ;
+				INFOPLIST_FILE = "Cardinbox tech roundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LazyLunatics.Cardinbox-tech-roundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardinbox tech round";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7927E265221D503F00707880 /* Build configuration list for PBXProject "Cardinbox tech round" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927E290221D504100707880 /* Debug */,
+				7927E291221D504100707880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7927E292221D504100707880 /* Build configuration list for PBXNativeTarget "Cardinbox tech round" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927E293221D504100707880 /* Debug */,
+				7927E294221D504100707880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7927E295221D504100707880 /* Build configuration list for PBXNativeTarget "Cardinbox tech roundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927E296221D504100707880 /* Debug */,
+				7927E297221D504100707880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7927E298221D504100707880 /* Build configuration list for PBXNativeTarget "Cardinbox tech roundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927E299221D504100707880 /* Debug */,
+				7927E29A221D504100707880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7927E262221D503F00707880 /* Project object */;
+}
