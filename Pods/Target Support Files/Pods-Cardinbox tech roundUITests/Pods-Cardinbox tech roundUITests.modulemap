@@ -1,0 +1,6 @@
+framework module Pods_Cardinbox_tech_roundUITests {
+  umbrella header "Pods-Cardinbox tech roundUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
